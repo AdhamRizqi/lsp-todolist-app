@@ -1,0 +1,277 @@
+.kurikulum {
+    background-image: url('../img/k1.png'); /* Ganti dengan path gambar kamu */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Menjaga posisi gambar tetap di tengah */
+    width: 100%;
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    padding: 50px; /* Opsional: memberi padding jika diperlukan */
+}
+.kurikulum h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    color: #FF6057;
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+  /* Vertical center */
+    text-align: center;
+}
+
+.kurikulum h2{
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    /* Memberikan margin kanan agar teks condong ke dalam */
+    margin-bottom: 1.5rem; /* Memberikan jarak bawah pada setiap paragraf */
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+  /* Vertical center */
+    text-align: center;
+    
+}
+
+.kurikulum h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+     /* Memberikan jarak bawah pada setiap paragraf */
+}
+
+.kurikulum h4 li {
+   /* Menambahkan jarak antara setiap item */
+    list-style-type: decimal; /* Mengganti bullet menjadi angka */
+    font-size: 1.3rem;
+}
+.kurikulum h4 {
+    margin-bottom: 1rem;
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    line-height: 1.8; /* Menambahkan jarak antar baris */
+    
+}
+
+.kurikulum2 {
+    background-image: url('../img/k2.png'); /* Ganti dengan path gambar kamu */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Menjaga posisi gambar tetap di tengah */
+    width: 100%;
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    padding: 50px; /* Opsional: memberi padding jika diperlukan */
+}
+
+.kurikulum2 h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    color: #FF6057;
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+  /* Vertical center */
+    text-align: center;
+}
+
+.kurikulum2 h2{
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    /* Memberikan margin kanan agar teks condong ke dalam */
+    margin-bottom: 1.5rem; /* Memberikan jarak bawah pada setiap paragraf */
+    font-size: 1.5rem;
+ 
+    
+}
+
+.kurikulum2 h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+     /* Memberikan jarak bawah pada setiap paragraf */
+}
+
+.kurikulum2 h4 li {
+   /* Menambahkan jarak antara setiap item */
+    list-style-type: decimal; /* Mengganti bullet menjadi angka */
+    font-size: 1.3rem;
+}
+.kurikulum2 h4 {
+    margin-bottom: 1rem;
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    line-height: 1.8; /* Menambahkan jarak antar baris */
+    margin-left: 10%;
+    
+}
+
+.kurikulum3 {
+    background-image: url('../img/k32.png'); /* Ganti dengan path gambar kamu */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Menjaga posisi gambar tetap di tengah */
+    width: 100%;
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    padding: 50px; /* Opsional: memberi padding jika diperlukan */
+}
+
+.kurikulum3 h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    color: #FF6057;
+    
+}
+
+.kurikulum3 h2{
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    /* Memberikan margin kanan agar teks condong ke dalam */
+    margin-bottom: 1.5rem; /* Memberikan jarak bawah pada setiap paragraf */
+    font-size: 1.5rem
+    
+}
+
+.kurikulum3 h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    margin-left: 0%; /* Horizontal center */
+  /* Vertical center */
+    text-align: center;
+     /* Memberikan jarak bawah pada setiap paragraf */
+}
+.kurikulum3 ul {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    list-style-type: decimal; /* Mengganti bullet menjadi angka */
+    padding-left: 20px; /* Memberikan jarak kiri pada daftar */
+    margin-left: 42%;
+}
+
+.kurikulum3 ul li {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Memberikan jarak antar item */
+}
+
+.kurikulum3 h4 li {
+   /* Menambahkan jarak antara setiap item */
+  /* Mengganti bullet menjadi angka */
+  margin-left: 1%;
+    font-size: 1.3rem;
+}
+.kurikulum3 h4 {
+    margin-bottom: 1rem;
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    line-height: 1.8; /* Menambahkan jarak antar baris */
+    margin-left: 42%;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.kurikulum4 {
+    background-image: url('../img/k3.png'); /* Ganti dengan path gambar kamu */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Menjaga posisi gambar tetap di tengah */
+    width: 100%;
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    padding: 50px; /* Opsional: memberi padding jika diperlukan */
+}
+
+.kurikulum4 h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    margin-left: 0%; /* Horizontal center */
+  /* Vertical center */
+    text-align: center;
+     /* Memberikan jarak bawah pada setiap paragraf */
+}
+.kurikulum4 ul {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    list-style-type: decimal; /* Mengganti bullet menjadi angka */
+    padding-left: 20px; /* Memberikan jarak kiri pada daftar */
+    margin-left: 42%;
+}
+
+.kurikulum4 ul li {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Memberikan jarak antar item */
+}
+
+.kurikulum4 h4 {
+    margin-bottom: 1rem;
+    font-family: 'Teachers', cursive; /* Menetapkan font Teachers */
+    line-height: 1.8; /* Menambahkan jarak antar baris */
+    text-align: left; /* Menyusun h4 di tengah */
+    font-size: 1.3rem;
+    display: block;
+    margin-left: 30%;
+    justify-content: center;
+    list-style-type: decimal;
+    font-weight: 400;
+}
+
+.kurikulum4 ul {
+    padding-left: 20px; /* Menambahkan jarak kiri pada list */
+    list-style-type: decimal; /* Mengganti bullet menjadi angka */
+    margin-left: 0; /* Menghapus margin kiri pada list */
+    text-align: left; /* Menyusun teks di kiri */
+}
+
+.kurikulum4 h4 li {
+    margin-left: 0; /* Menghapus margin kiri pada setiap item */
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem; /* Memberikan jarak antar item */
+}
+
+
+.kurikulum5 {
+    background-image: url('../img/k3.png'); /* Ganti dengan path gambar kamu */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Menjaga posisi gambar tetap di tengah */
+    width: 100%;
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    padding: 50px; /* Opsional: memberi padding jika diperlukan */
+}
+.kurikulum5 h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-align: center; /* Menyusun h3 di tengah */
+    margin-left: 0; /* Menghapus margin kiri */
+}
+
+.kurikulum5 ul {
+    justify-content: center;
+    list-style: none; /* Menghapus bullet default */
+    padding: 0;
+    margin: 0 auto; /* Menambahkan margin otomatis untuk meratakan di tengah */
+    width: 60%; /* Memastikan lebar container */
+    box-sizing: border-box; /* Memastikan padding dan margin tidak mempengaruhi lebar */
+    display: table; /* Menjadikan ul berfungsi sebagai tabel */
+}
+
+li {
+    display: table-row; /* Setiap li menjadi baris dalam tabel */
+}
+
+.kegiatan, .tanggal {
+    display: table-cell; /* Setiap div menjadi sel dalam baris */
+    padding: 10px; /* Memberikan padding pada setiap sel */
+    vertical-align: middle; /* Memastikan teks di tengah vertikal */
+    border: 1px solid #ddd; /* Memberikan border pada setiap sel */
+}
+
+.kegiatan {
+    width: 70%; /* Mengatur lebar kolom kegiatan */
+    text-align: left; /* Teks rata kiri */
+}
+
+.tanggal {
+    width: 30%; /* Mengatur lebar kolom tanggal */
+    text-align: center; /* Teks rata tengah */
+}

@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Sesuaikan jika perlu */
+    background: transparent; /* Navbar transparan pada awalnya */
+    z-index: 1000;
+    transition: background 0.3s ease; /* Tambahkan efek transisi untuk perubahan */
+}
+
+
+nav .logo a {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+nav .links {
+    list-style: none;          /* Menghilangkan bullet pada list */
+    display: flex;             /* Menjadikan list horizontal */
+    gap: 20px;                 /* Jarak antar elemen, gunakan rem untuk konsistensi */
+    font-size: 1rem;         /* Ukuran font */
+    margin: 0;                 /* Menghilangkan margin default */
+    font-weight: 700;         /* Ubah font-style ke font-weight untuk bold */
+                /* Hilangkan padding tambahan yang tidak diperlukan */
+    align-items: center;       /* Pusatkan elemen secara vertikal */
+}
+
+nav .links li a {
+    text-decoration: none;
+    color: black;
+  
+}
+
+nav .search svg {
+    fill: black; /* Warna isi SVG */
+    stroke: black; /* Warna garis luar SVG */
+    stroke-width: 1.5; /* Ketebalan garis luar SVG */
+    cursor: pointer; /* Pointer saat hover */
+    width: 20px; /* Ukuran lebar */
+    height: 20px; /* Ukuran tinggi */
+}
+
+section {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #e3fdfd, #cbf1f5);
+    min-height: 100vh;
+}

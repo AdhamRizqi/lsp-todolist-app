@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Teachers';
+    src: url('fonts/teachers.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-item {
+    font-family: 'Teachers', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #121212;
+}

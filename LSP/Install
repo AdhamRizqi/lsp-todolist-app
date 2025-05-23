@@ -1,0 +1,36 @@
+# Installation
+
+1. Clone repo ini menggunakan perintah:
+
+        git clone https://github.com/altimeda-projects/aisin-project-development.git
+
+2. Jalankan perintah berikut di terminal/cmd:
+
+        composer install && npm install
+
+3. Buat file baru bernama .env dan copy isi dari .env.example yang ada di repo, lalu simpan.
+
+        cp .env.example .env
+
+4. Generate key artisan dengan perintah:
+
+        php artisan key:generate
+
+5. Jalankan migrasi dengan perintah:
+
+        php artisan migrate
+
+6. Jalankan server dengan perintah:
+
+        php artisan serve
+
+Pastikan requirements sudah terinstall sesuai kebutuhan Laravel 11 seperti *minimum PHP version of 8.2.*
+Dokuemnasi lengkapnya bisa dilihat di [Docs Laravel 11](https://laravel.com/docs/11.x/installation).
+
+setingan .env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=sesuai database yang dibuat
+DB_USERNAME=root
+DB_PASSWORD=

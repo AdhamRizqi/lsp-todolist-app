@@ -1,0 +1,27 @@
+.input-container {
+    position: relative; /* Untuk memposisikan ikon di dalam container */
+    width: 300px; /* Atur lebar sesuai kebutuhan Anda */
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 10px; /* Atur jarak ikon dari tepi kiri */
+    top: 50%;
+    transform: translateY(-50%); /* Posisikan ikon di tengah vertikal */
+  }
+  
+  .input-icon img {
+    width: 20px; /* Atur ukuran ikon */
+    height: 20px;
+  }
+  
+  .input-field {
+    width: 110%;
+    padding-left: 40px; /* Beri ruang di sebelah kiri untuk ikon */
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+  }

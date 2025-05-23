@@ -1,0 +1,166 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  width: 100%; /* Memastikan lebar elemen sesuai dengan lebar layar */
+  height: 100vh; /* Mengatur tinggi sesuai dengan tinggi layar (viewport height) */
+  background-image: url('../img/home.jpeg');
+  background-repeat: no-repeat; /* Gambar tidak akan diulang */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area elemen */
+  background-position: center; /* Menjaga posisi gambar tetap di tengah */
+  overflow: hidden; /* Menghindari overflow konten jika ada */
+  display: flex;
+  align-items: center; /* Menjaga konten di tengah secara vertikal */
+  justify-content: center; /* Menjaga konten di tengah secara horizontal */
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('../img/wave.png');
+    background-size: 1700px 100px;
+}
+.content{
+    text-align: center;
+    padding: 0 10em;
+}
+
+.wel {
+  position: absolute; /* Mengatur posisi agar lebih fleksibel */
+  right: 200px; /* Atur jarak dari kanan */
+  top: 50%; /* Atur agar berada di tengah secara vertikal */
+  transform: translateY(-50%); /* Menyeimbangkan posisi vertikal */
+  text-align: right; /* Agar teks rata kanan */
+}
+
+.wel p {
+  margin: 0; /* Menghilangkan margin bawaan */
+  font-size: 2.5rem; /* Atur ukuran font */
+  font-weight: bold; /* Menebalkan teks */
+  font-family: 'Cherry Bomb One', cursive; /* Gunakan font sesuai kebutuhan */
+  color: white; /* Sesuaikan warna teks */
+  line-height: 3; /* Atur jarak antar teks */
+  letter-spacing: 3px;
+}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Cherry Bomb";
+  color: white;
+  margin: 0;
+}
+
+
+
+.content h1{
+    color: white;
+    font-size: 5em;
+    margin-bottom: 1em;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+}
+.content p{
+    color: white;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.tentang{
+    padding: 18em 12em;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255,154,0,255);
+}
+
+.tentang h1{
+    font-weight: 600;
+}
+
+
+
+.line-1 {
+    width: 8em;
+    height: 2px;
+    background: rgba(255,154,0,255);
+    margin-bottom: 3em;
+  }
+
+.tentang p{
+    margin-bottom: 4em;
+    font-weight: 400;
+}
+
+.button-60 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-60 a{
+    text-decoration: none;
+    color: rgba(255,154,0,255);;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.button-60:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+.button-60:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+.button-60:hover {
+  border-color: rgba(255,154,0,255);;
+}
+
+.button-60:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
